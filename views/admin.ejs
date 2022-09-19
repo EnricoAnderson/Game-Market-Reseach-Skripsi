@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+  <body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4">GRGMR</span>
+            </a>
+      
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Admin</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            </ul>
+          </header>
+        
+        <main>
+            <div class="px-4 py-5 my-5 text-center">
+                <h1 class="display-5 fw-bold">Server Configuration</h1>
+                <div class="col-lg-8 mx-auto">
+                  <hr class="my-4">
+                  <br>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <form class="p-4 p-md-5 border rounded-3 bg-light" action="/save" method="POST">
+                          <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="username" value=<%= locals.username %>>
+                            <label for="floatingInput">Username</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="password" value=<%= locals.password %>>
+                            <label for="floatingInput">Password</label>
+                          </div>
+                          <button class="w-100 btn btn-lg btn-primary" type="submit">Save</button>
+                        </form>
+                      </div>
+                      <div class="col-sm">
+                        <form class="p-4 p-md-5 border rounded-3 bg-light" action="/scraper" method="POST">
+                          <div class="form-floating mb-3">
+                            <input type="number" min="0" class="form-control" name="pageTotal" value="5">
+                            <label>Page</label>
+                          </div>
+                          <p>Last Update : <%= locals.last_update %></p>
+                          <button class="w-100 btn btn-lg btn-primary" type="submit">Update</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

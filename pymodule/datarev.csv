@@ -1,0 +1,374 @@
+Genre,Revenue
+Multiplayer,8939909473
+Action,8767634723
+Singleplayer,8738632964
+Co-op,6618715309
+Adventure,6370155417
+Open World,6339551133
+Atmospheric,6052770817
+First-Person,5317068853
+Simulation,4973033078
+Online Co-Op,4719328340
+Sandbox,4375808083
+Great Soundtrack,4308849421
+FPS,4073907125
+Shooter,3939153434
+Indie,3929214074
+RPG,3841658815
+Strategy,3627314034
+Survival,3296308994
+Third Person,2978612266
+Building,2634275321
+PvP,2588122124
+Gore,2580093562
+Exploration,2528514107
+Moddable,2462116196
+Story Rich,2345919565
+Tactical,2217586695
+Funny,2177415140
+Massively Multiplayer,2163814109
+Violent,2147451199
+Sci-fi,2137776603
+Open World Survival Craft,2079913465
+Crafting,2037974134
+Realistic,1920745796
+Casual,1889318185
+Difficult,1889262773
+Horror,1598929281
+War,1540611832
+Team-Based,1530441334
+Early Access,1523776550
+Comedy,1450571949
+Fantasy,1436148068
+Zombies,1353546475
+Management,1346545344
+Post-apocalyptic,1322532697
+Replay Value,1257128363
+Action RPG,1252978106
+Historical,1204597336
+Physics,1165298508
+Military,1135502196
+2D,1106800619
+Mature,1103791126
+Survival Horror,1089851715
+Grand Strategy,1052801326
+Character Customization,1024536082
+Base-Building,1023140954
+Space,999883182
+Stealth,985848183
+Turn-Based Strategy,961864601
+Third-Person Shooter,955708571
+Dark Fantasy,942079701
+Relaxing,931551826
+Souls-like,901298440
+PvE,891104149
+Hack and Slash,885722738
+Nudity,872451232
+Turn-Based,865386515
+Automobile Sim,859986448
+Family Friendly,830754965
+3D,819579892
+Controller,809092566
+Economy,777723354
+Hero Shooter,776683220
+Destruction,754537396
+City Builder,742723029
+Parkour,723906159
+Futuristic,703500201
+Procedural Generation,696266188
+Combat,693677063
+Crime,692930745
+4X,603467870
+Walking Simulator,597884670
+Female Protagonist,589252692
+Local Co-Op,583732615
+Pixel Graphics,580688757
+Resource Management,576296859
+RTS,571460282
+Racing,558914743
+Real-Time with Pause,557974841
+VR,543070600
+Competitive,525400323
+Diplomacy,509904777
+Platformer,500981985
+Looter Shooter,489191102
+Immersive Sim,479066990
+Classic,471772838
+Space Sim,449503076
+Choices Matter,440006341
+Psychological Horror,435423612
+Driving,433167819
+Cute,429339660
+Beautiful,425558830
+Hex Grid,425104648
+Western,424162653
+Loot,410941583
+Colorful,397222683
+Sexual Content,393779571
+Anime,392083381
+World War II,389344729
+Blood,386915461
+Rogue-lite,382287556
+Dark,367727028
+Isometric,337234015
+Modern,325186300
+Robots,320891292
+Mod,316568560
+Cinematic,307615905
+Local Multiplayer,302126952
+Dinosaurs,293910850
+Sports,287884396
+Alternate History,287675296
+Horses,283252397
+Illuminati,280233139
+Co-op Campaign,276232588
+Transportation,272383553
+Assassin,261846009
+MMORPG,260632511
+Ninja,251971728
+Quick-Time Events,249404476
+Puzzle,248982839
+Perma Death,245498572
+Cartoony,241493083
+Heist,240321279
+Real Time Tactics,239278659
+JRPG,236475141
+Action Roguelike,236156679
+Dragons,229681680
+Swordplay,228520351
+Life Sim,227058817
+Games Workshop,219249346
+Memes,214760204
+Tactical RPG,210751405
+Mythology,208935391
+Rogue-like,208307127
+Fast-Paced,204971769
+Animation & Modeling,201934183
+Tower Defense,201168472
+Dark Humor,200704039
+Dating Sim,199979987
+Aliens,198941090
+Education,193707829
+Colony Sim,193593772
+Hand-drawn,192851890
+Action-Adventure,188654774
+Demons,185974869
+Battle Royale,183080100
+Fighting,183058962
+Metroidvania,179723223
+Rhythm,179671996
+Gun Customization,178400969
+CRPG,176260884
+Party-Based RPG,174085818
+Multiple Endings,169448407
+Bullet Hell,163185493
+Romance,161282616
+Farming Sim,156944499
+Fishing,154643263
+Addictive,151056132
+Tanks,149982436
+Automation,149702163
+Arcade,149265857
+Agriculture,148945884
+Emotional,148813790
+Medieval,147315413
+Mystery,142430952
+Turn-Based Tactics,142313243
+Strategy RPG,140316053
+Naval,140035722
+Epic,139633191
+Touch-Friendly,138588963
+Voxel,136470798
+Vehicular Combat,135405251
+Dungeon Crawler,131020240
+Class-Based,125264551
+Magic,125115708
+Detective,124052974
+Split Screen,123542460
+Retro,122501652
+Side Scroller,120497892
+Character Action Game,118160313
+Remake,117900126
+TrackIR,117648338
+Political,116250586
+e-sports,115159564
+Spectacle fighter,114067674
+Mechs,111632171
+Pirates,110056774
+Sailing,110056774
+Linear,109387666
+Warhammer 40K,107399023
+Real-Time,107311934
+America,106960584
+Nonlinear,103784730
+Top-Down,99476527
+Supernatural,98174185
+Point & Click,93109081
+Science,90752931
+Choose Your Own Adventure,87338655
+Wargame,86797411
+Flight,84571166
+Cyberpunk,84067231
+Lore-Rich,83876868
+Nature,83054689
+Investigation,82986718
+Cartoon,82336617
+Psychological,81059359
+Soundtrack,80807766
+Thriller,80718616
+3D Platformer,80597857
+Surreal,80499628
+Puzzle-Platformer,80393206
+Lovecraftian,80365144
+Stylized,80204723
+Hunting,79683655
+Soccer,79325548
+Football,79325548
+Time Travel,77850215
+Satire,74298034
+Drama,74276643
+Capitalism,73711583
+LGBTQ+,72728279
+Party Game,72318308
+Trading,71822381
+World War I,71134116
+Visual Novel,70665180
+3D Vision,69319986
+Noir,64513528
+4 Player Local,64043515
+Comic Book,63457088
+Trains,63057783
+Underwater,58509923
+Music,55465055
+God Game,54741933
+Minigames,54525630
+2.5D,54505002
+Martial Arts,51945109
+Vampire,50179933
+Dystopian ,48311374
+Kickstarter,48226835
+Short,46942570
+Social Deduction,43323161
+Superhero,38186950
+Cold War,37718277
+Roguevania,37570694
+Crowdfunded,37296834
+Shoot 'Em Up,36819125
+Narration,36485697
+Dark Comedy,34570915
+Artificial Intelligence,34490521
+Turn-Based Combat,34090968
+Steampunk,32938363
+MOBA,31940004
+Deckbuilding,30977601
+Old School,30359816
+Silent Protagonist,30186935
+Party,29075863
+Cooking,28374059
+Auto Battler,28329413
+3D Fighter,28321903
+Logic,27575668
+Cult Classic,27300998
+Beat 'em up,27242602
+Dog,27123360
+Dynamic Narration,26873040
+Action RTS,26684424
+Cats,26352701
+2D Fighter,24593062
+Level Editor,24162522
+Gambling,23907125
+Basketball,23907125
+Board Game,23792777
+VR Only,23374059
+Vikings,23023221
+Masterpiece,22998297
+Jet,22478520
+Foreign,20292196
+Conversation,19144135
+Dungeons & Dragons,18985638
+Interactive Fiction,17573788
+Text-Based,17421924
+Tabletop,17418807
+Hentai,16956896
+Arena Shooter,14961150
+Based On A Novel,14469797
+Medical Sim,13951533
+Politics,12843621
+Offroad,12636163
+1990's,11209961
+Political Sim,11173072
+Time Manipulation,11050485
+FMV,11034694
+2D Platformer,10684671
+Spaceships,10508620
+RPGMaker,10307498
+Sequel,10092592
+Transhumanism,9800949
+Hidden Object,9781696
+Collectathon,9192331
+Cozy,8791881
+Mining,8658369
+Time Management,8307925
+Trivia,8147509
+Wholesome,7950351
+Snow,7742613
+ATV,7719637
+Minimalist,6942320
+Faith,6824306
+Gothic,6607408
+Inventory Management,6418692
+Card Game,6301521
+Tutorial,6244332
+Villain Protagonist,6205600
+Wrestling,5963896
+Immersive,5756605
+Combat Racing,5408467
+Bullet Time,4359299
+Game Development,4248141
+Narrative,4226655
+Experimental,4198582
+Idler,3800312
+Rock Music,3774497
+Sniper,3743987
+Psychedelic,3718955
+Episodic,3644561
+Software Training,3458756
+Escape Room,3209311
+Abstract,2953686
+Motorbike,2796602
+Golf,2694041
+Mini Golf,2694041
+Score Attack,1933213
+Precision Platformer,1750351
+Philosophical,1724101
+Word Game,1521536
+Nostalgia,1515552
+Top-Down Shooter,1508388
+Pinball,1245877
+1980s,1108224
+Card Battler,1066396
+NSFW,980395
+Creature Collector,960202
+Conspiracy,907831
+Roguelike Deckbuilder,841326
+Naval Combat,570079
+Grid-Based Movement,499707
+Software,485277
+Utilities,485277
+Musou,366046
+Farming,343484
+Well-Written,312718
+Submarine,286957
+Rome,262890
+Music-Based Procedural Generation,229640
+Underground,105505
+Solitaire,93098
+Trading Card Game,71842
+Traditional Roguelike,63262
+Otome,61484
+Tennis,60696
+Hacking,43153
+Programming,24475
+Chess,0
+Free to Play,0
+Clicker,0

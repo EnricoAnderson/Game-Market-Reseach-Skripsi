@@ -1,0 +1,27 @@
+{
+  "name": "game-market-research",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon --ignore pymodule/* app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathean/game-market-research.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cathean/game-market-research/issues"
+  },
+  "homepage": "https://github.com/cathean/game-market-research#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-basic-auth": "^1.2.1",
+    "node-json-db": "^2.1.0"
+  }
+}

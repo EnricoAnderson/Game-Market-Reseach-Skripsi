@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+      // Top 10 Genre Chart
+      var genre = "<%= locals.genre %>"
+      genrelist = genre.split(",")
+      genrelist = genrelist.slice(0, 10)
+      var revenue = "<%= locals.revenue %>"
+      revenuelist = revenue.split(',').map(function(item) {
+                        return parseInt(item, 10);
+                    });
+      revenuelist = revenuelist.slice(0, 10)
+      var revenue_total = "<%= locals.revenue_total %>"
+    
+      const data = {
+        labels: genrelist,
+        datasets: [{
+          backgroundColor: 'rgb(255, 99, 132)',
+          borderColor: 'rgb(255, 99, 132)',
+          data: revenuelist,
+        }]
+      };
+    
+      const config = {
+        type: 'bar',
+        data: data,
+        options: {
+          plugins: {
+              title: {
+                display: true,
+                text: "Top 10 Game Genre Revenue",
+                font: {
+                  size: 20
+                },
+                padding: {
+                  bottom: 15
+                }
+              },
+              legend: false,
+          }
+        }
+      };
+
+      // Reccomendation Table
+      var rekomendasi = <%-JSON.stringify(rekomendasi) %>
+    </script>
+
+
+  </head>
+  <body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4">GRGMR</span>
+            </a>
+      
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Home</a></li>
+              <li class="nav-item"><a href="/login" class="nav-link">Admin</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+            </ul>
+          </header>
+        
+        <main>
+            <div class="px-4 py-5 my-5 text-center">
+
+                <h1 class="display-5 fw-bold">Recommendation Result</h1>
+                <div class="col-lg-8 mx-auto">
+                  <p class="lead mb-4">This is list of recommendation result based on your input genre.</p>
+                  <div class="col-md-10 mx-auto col-lg-8">
+                    <div>
+                      <canvas id="myChart"></canvas>
+                    </div>
+                    <hr class="my-4">
+                    <h1>Recommendation</h1>
+                    <br>
+                    <h3><%= rekomendasi[0] %></h3>
+                    <br>
+                    <hr>
+                    <table id="dtBasicExample" class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Genre Recommendation</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <% for(var i=1; i < rekomendasi.length; i++) {%>
+                        <tr>
+                          <td><%= i %></td>
+                          <td><%= rekomendasi[i] %></td>
+                        </tr>
+                        <% } %>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+      const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+      );
+
+      $(document).ready(function () {
+        $('#dtBasicExample').DataTable();
+        $('.dataTables_length').addClass('bs-select');
+      });
+    </script>
+  </body>
+</html>
